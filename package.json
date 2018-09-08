@@ -12,7 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/christroutner/semantic-test.git"
   },
-  "keywords": ["test"],
+  "keywords": [
+    "test"
+  ],
   "author": "Chris Troutner <chris.troutner@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -21,6 +23,7 @@
   "homepage": "https://github.com/christroutner/semantic-test#readme",
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "semantic-release": "^15.9.14"
   }
 }
