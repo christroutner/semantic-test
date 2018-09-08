@@ -1,13 +1,16 @@
 {
   "name": "semantic-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A test-project for exploring the setup of semantic-release",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/_mocha ./test/*.js",
-    "test-travis": "./node_modules/mocha/bin/_mocha ./test/*.js",
+    "test":
+      "./node_modules/nyc/bin/nyc.js --reporter=html --reporter=text ./node_modules/mocha/bin/_mocha ./test/*.js",
+    "test-travis":
+      "./node_modules/nyc/bin/nyc.js --reporter=html --reporter=text ./node_modules/mocha/bin/_mocha ./test/*.js",
     "start": "node index.js",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -22,7 +25,9 @@
   "homepage": "https://github.com/christroutner/semantic-test#readme",
   "devDependencies": {
     "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
     "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
     "semantic-release": "^15.9.14"
   },
   "release": {
