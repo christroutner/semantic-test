@@ -6,15 +6,14 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/_mocha ./test/*.js",
     "test-travis": "./node_modules/mocha/bin/_mocha ./test/*.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/christroutner/semantic-test.git"
   },
-  "keywords": [
-    "test"
-  ],
+  "keywords": ["test"],
   "author": "Chris Troutner <chris.troutner@gmail.com>",
   "license": "MIT",
   "bugs": {
