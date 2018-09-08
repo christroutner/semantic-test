@@ -1,0 +1,22 @@
+{
+  "name": "semantic-test",
+  "version": "1.0.0",
+  "description": "A test-project for exploring the setup of semantic-release",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo no tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christroutner/semantic-test.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Chris Troutner <chris.troutner@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christroutner/semantic-test/issues"
+  },
+  "homepage": "https://github.com/christroutner/semantic-test#readme"
+}
