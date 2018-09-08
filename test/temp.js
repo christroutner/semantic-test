@@ -8,12 +8,14 @@
 const chai = require("chai");
 const assert = chai.assert;
 
-describe("Temp", () => {
-  describe("Second level", () => {
-    it("this is a test", async () => {
-      console.log("hello world!");
+const lib = require('../index.js');
 
-      assert(true, true, "message");
+describe("Tests", () => {
+  describe("Sum", () => {
+    it("sums two integers", async () => {
+      const result = lib.sum(2,3);
+
+      assert(result, 5, "2+3=5");
     });
   });
 });
