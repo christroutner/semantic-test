@@ -4,15 +4,15 @@
   "description": "A test-project for exploring the setup of semantic-release",
   "main": "index.js",
   "scripts": {
-    "test": "echo no tests"
+    "test": "./node_modules/mocha/bin/_mocha ./test/*.js",
+    "test-travis": "./node_modules/mocha/bin/_mocha ./test/*.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/christroutner/semantic-test.git"
   },
-  "keywords": [
-    "test"
-  ],
+  "keywords": ["test"],
   "author": "Chris Troutner <chris.troutner@gmail.com>",
   "license": "MIT",
   "bugs": {
