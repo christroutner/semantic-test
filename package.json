@@ -6,7 +6,8 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/_mocha ./test/*.js",
     "test-travis": "./node_modules/mocha/bin/_mocha ./test/*.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/christroutner/semantic-test#readme",
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "semantic-release": "^15.9.14"
   }
 }
