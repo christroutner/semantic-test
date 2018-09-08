@@ -1,5 +1,6 @@
 /*
   A description.
+  More information.
 */
 
 "use strict";
