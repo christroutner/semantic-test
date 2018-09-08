@@ -18,4 +18,12 @@ describe("Tests", () => {
       assert(result, 5, "2+3=5");
     });
   });
+
+  describe("Hello", () => {
+    it("Says hello chris", async () => {
+      const result = lib.sayHi('Chris');
+
+      assert(result, 'Hello Chris', 'Should say: Hello Chris');
+    })
+  })
 });
