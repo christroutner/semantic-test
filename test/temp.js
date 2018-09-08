@@ -1,4 +1,5 @@
 /*
+  A description.
 */
 
 "use strict";
